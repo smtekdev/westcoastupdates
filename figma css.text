@@ -1,0 +1,698 @@
+/* HERO  */
+
+position: absolute;
+width: 2127px;
+height: 1060px;
+left: -326px;
+top: -8px;
+
+
+
+/* 3228 1 */
+
+position: absolute;
+width: 1471.33px;
+height: 1052px;
+left: -4px;
+top: -7px;
+
+background: url(3228.jpg);
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 1440px;
+height: 1053px;
+left: 8px;
+top: -8px;
+
+background: #000000;
+opacity: 0.59;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 848px;
+height: 848px;
+left: 953px;
+top: 151px;
+
+background: #FB0DFF;
+filter: blur(252px);
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 848px;
+height: 848px;
+left: -326px;
+top: 109px;
+
+background: #0D9AFF;
+filter: blur(252px);
+
+
+/* Ellipse 6 */
+
+position: absolute;
+width: 864px;
+height: 864px;
+left: calc(50% - 864px/2 + 8.5px);
+top: 151px;
+
+background: rgba(253, 73, 187, 0.35);
+box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.44);
+backdrop-filter: blur(15px);
+/* Note: backdrop-filter has minimal browser support */
+
+
+/* Rectangle */
+
+position: absolute;
+width: 1500.38px;
+height: 1000px;
+left: -19px;
+top: 52px;
+
+background: url(man-wearing-vr-glasses-gaming.png);
+
+
+/* redesign westcoast animations 1 */
+
+position: absolute;
+width: 190px;
+height: 190px;
+left: 41px;
+top: -8px;
+
+background: url(redesign westcoast animations.png);
+
+
+/* ANIMATIONS */
+
+position: absolute;
+width: 823px;
+height: 237px;
+left: 452px;
+top: 620px;
+
+font-family: 'Agdasima';
+font-style: normal;
+font-weight: 700;
+font-size: 197.825px;
+line-height: 237px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Group 2 */
+
+position: absolute;
+width: 606.73px;
+height: 31px;
+left: calc(50% - 606.73px/2 - 8.43px);
+top: 39px;
+
+
+
+/* Group 1 */
+
+position: absolute;
+width: 606.73px;
+height: 31px;
+left: 424.7px;
+top: 39px;
+
+
+
+/* HOME */
+
+position: absolute;
+width: 57px;
+height: 31px;
+left: 424.7px;
+top: 39px;
+
+font-family: 'Afacad';
+font-style: normal;
+font-weight: 700;
+font-size: 23.1584px;
+line-height: 31px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* ABOUT */
+
+position: absolute;
+width: 67px;
+height: 31px;
+left: 526.08px;
+top: 39px;
+
+font-family: 'Afacad';
+font-style: normal;
+font-weight: 700;
+font-size: 23.1584px;
+line-height: 31px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* CONTACT */
+
+position: absolute;
+width: 94px;
+height: 31px;
+left: 637.51px;
+top: 39px;
+
+font-family: 'Afacad';
+font-style: normal;
+font-weight: 700;
+font-size: 23.1584px;
+line-height: 31px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* PORTFOLIO */
+
+position: absolute;
+width: 112px;
+height: 31px;
+left: 775.76px;
+top: 39px;
+
+font-family: 'Afacad';
+font-style: normal;
+font-weight: 700;
+font-size: 23.1584px;
+line-height: 31px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* PACKAGES */
+
+position: absolute;
+width: 99px;
+height: 31px;
+left: 932.43px;
+top: 39px;
+
+font-family: 'Afacad';
+font-style: normal;
+font-weight: 700;
+font-size: 23.1584px;
+line-height: 31px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Group 4 */
+
+position: absolute;
+width: 27px;
+height: 18.9px;
+left: 1214px;
+top: 45.55px;
+
+
+
+/* Group 3 */
+
+position: absolute;
+width: 27px;
+height: 18.9px;
+left: 1214px;
+top: 45.55px;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 27px;
+height: 2.7px;
+left: 1214px;
+top: 45.55px;
+
+background: #FFFFFF;
+border-radius: 3.375px;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 27px;
+height: 2.7px;
+left: 1214px;
+top: 53.65px;
+
+background: #FFFFFF;
+border-radius: 3.375px;
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 27px;
+height: 2.7px;
+left: 1214px;
+top: 61.75px;
+
+background: #FFFFFF;
+border-radius: 3.375px;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 1118px;
+top: 41px;
+
+background: #FFFFFF;
+
+
+/* User
+
+Keywords: person, account
+*/
+
+position: absolute;
+width: 18.67px;
+height: 18.67px;
+left: 1122.67px;
+top: 45.67px;
+
+
+
+/* Icon */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.55556px solid #1E1E1E;
+
+
+/* WELCOME TO */
+
+position: absolute;
+width: 346px;
+height: 84px;
+left: 187px;
+top: 438px;
+
+font-family: 'Afacad';
+font-style: normal;
+font-weight: 700;
+font-size: 62.6794px;
+line-height: 84px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* WHERE CREATIVITY COMES TRUE */
+
+position: absolute;
+width: 600px;
+height: 61px;
+left: 676px;
+top: 817px;
+
+font-family: 'Afacad';
+font-style: normal;
+font-weight: 700;
+font-size: 45.8073px;
+line-height: 61px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* WEST COAST */
+
+position: absolute;
+width: 813px;
+height: 225px;
+left: 197px;
+top: 470px;
+
+font-family: 'Agdasima';
+font-style: normal;
+font-weight: 700;
+font-size: 188.038px;
+line-height: 225px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 181.15px;
+height: 58px;
+left: 738px;
+top: 926px;
+
+background: #0C9AFF;
+border-radius: 29px;
+
+
+/* Component 1 */
+
+position: absolute;
+width: 181.15px;
+height: 58px;
+left: 523px;
+top: 926px;
+
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #0C9AFF;
+border-radius: 29px;
+
+
+/* GET STARTED */
+
+position: absolute;
+left: 20.42%;
+right: 19.96%;
+top: 36.21%;
+bottom: 31.03%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+
+/* GET A QUOTE */
+
+position: absolute;
+width: 108px;
+height: 19px;
+left: 775px;
+top: 947px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+
+/* WHITE 1 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 1240px;
+top: 991px;
+
+background: url(WHITE.png);
+
+
+/* INSTA WHITE 1 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 1355px;
+top: 991px;
+
+background: url(INSTA WHITE.png);
+
+
+/* linkedin WHITE 1 */
+
+position: absolute;
+width: 29px;
+height: 29px;
+left: 1297px;
+top: 991px;
+
+background: url(linkedin WHITE.png);
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 409px;
+height: 131px;
+left: 36px;
+top: 890px;
+
+background: rgba(255, 255, 255, 0.37);
+backdrop-filter: blur(15px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 18px;
+
+
+/* Ellipse 7 */
+
+position: absolute;
+width: 9.69px;
+height: 9.69px;
+left: 397px;
+top: 1004.31px;
+
+background: #AEAEAE;
+
+
+/* Ellipse 8 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 9.69px;
+height: 9.69px;
+left: 410.15px;
+top: 1004.31px;
+
+border: 1px solid #AEAEAE;
+
+
+/* Ellipse 9 */
+
+position: absolute;
+width: 9.69px;
+height: 9.69px;
+left: 423.31px;
+top: 1004.31px;
+
+background: #AEAEAE;
+
+
+/* Ellipse 10 */
+
+position: absolute;
+width: 86px;
+height: 86px;
+left: 60px;
+top: 915px;
+
+background: rgba(255, 255, 255, 0.31);
+box-shadow: inset 0px 1px 7px rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+
+
+/* At west coast animations we provide variety of services such as Branding, Animations, web Development, Seo and Digital marketing as well. */
+
+position: absolute;
+width: 227px;
+height: 51px;
+left: 162px;
+top: 932px;
+
+font-family: 'Agdasima';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+
+
+
+/* W */
+
+position: absolute;
+width: 64px;
+height: 82px;
+left: 71px;
+top: 919px;
+
+font-family: 'ADLaM Display';
+font-style: normal;
+font-weight: 400;
+font-size: 62.5333px;
+line-height: 82px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 75px;
+height: 28px;
+left: 1308px;
+top: 41px;
+
+background: #FFFFFF;
+border-radius: 5px;
+
+
+/* Sign in */
+
+position: absolute;
+width: 37px;
+height: 14px;
+left: 1327px;
+top: 48px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 11.6078px;
+line-height: 14px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Group 8 */
+
+position: absolute;
+width: 13px;
+height: 445px;
+left: 1389px;
+top: 450px;
+
+
+
+/* Group 7 */
+
+position: absolute;
+width: 13px;
+height: 445px;
+left: 1389px;
+top: 450px;
+
+
+
+/* Group 6 */
+
+position: absolute;
+width: 13px;
+height: 445px;
+left: 1389px;
+top: 450px;
+
+
+
+/* Group 5 */
+
+position: absolute;
+width: 13px;
+height: 445px;
+left: 1389px;
+top: 450px;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 13px;
+height: 445px;
+left: 1389px;
+top: calc(50% - 445px/2 - 2464.5px);
+
+background: linear-gradient(180deg, #FFFFFF 0%, #D3D3D3 100%);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 6.5px;
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 13px;
+height: 145px;
+left: 1389px;
+top: calc(50% - 145px/2 - 2614.5px);
+
+background: linear-gradient(180deg, #F3EFEF 0%, #D3D3D3 100%);
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 6.5px;
+
+
+/* Ellipse 4 */
+
+position: absolute;
+width: 34px;
+height: 34px;
+left: 1379px;
+top: 422px;
+
+background: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+https://www.figma.com/design/IDGsOkN5W71QRzy9O7GtPm/westcoast-animations?node-id=1-2&t=VcUIwfNbMKmXv6Sj-0
+
+

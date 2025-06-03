@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WestCoast Animations</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Agdasima&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Afacad&display=swap" rel="stylesheet">
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <!-- Header Section Start -->
+  <header>
+    <div class="header-container">
+      <!-- Left: Logo -->
+      <div class="logo">
+        <img src="west-logo.png" alt="Logo">
+      </div>
+
+      <!-- Hamburger for mobile -->
+      <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+
+      <!-- Center: Navbar -->
+      <nav id="navMenu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li class="has-submenu">
+            <a href="#">Services</a>
+            <!-- <span class="submenu-toggle" onclick="toggleSubmenu(event)">▼</span> -->
+
+            <span class="submenu-toggle" onclick="toggleSubmenu(event)">▾</span>
+            <ul>
+              <li><a href="#">Graphics Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Animation</a></li>
+              <li><a href="#">SEO</a></li>
+              <li><a href="#">Digital Marketing</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right: Button (only on desktop) -->
+      <button class="cta-button">Get Started</button>
+    </div>
+  </header>
+  <!-- Header Section End -->
+
+  <!-- Hero Section Start -->
+  <section class="hero">
+    <div class="bg-image"></div>
+    <div class="dark-overlay"></div>
+    <div class="ellipse ellipse1"></div>
+    <div class="ellipse ellipse2"></div>
+    <div class="ellipse ellipse6"></div>
+    <div class="man-image"></div>
+    <h1 class="hero-wecom-title">WELCOME TO</h1>
+
+    <h1 class="hero-title">WEST&nbsp;COAST</h1>
+    <h1 class="hero-title-animation">ANIMATIONS</h1>
+    <h1 class="hero-title-desc">WHERE CREATIVITY COMES TRUE</h1>
+    <div class="hero-testi-btn">
+      <div class="testimonial-left">
+        <p>
+          Bringing imagination to life with stunning visuals and creative storytelling.
+        </p>
+
+      </div>
+
+      <div class="testimonial-right">
+        <button class="hero-btn">GET STARTED</button>
+        <button class="hero-btn">GET A QUOTE</button>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- Portfolio Section Start -->
+  <section class="portfolio-section">
+    <div class="blur-circle"></div>
+
+    <h2 class="portfolio-heading">OUR PORTFOLIO</h2>
+    <p class="portfolio-subtext">
+      OUR EXTENSIVE PORTFOLIO WILL HELP YOU TO RELY ON US THAT WHAT LEVEL OF SKILLS WE ARE PROVIDING TO OUR CLIENT’S
+    </p>
+
+    <!-- <div class="carousel-container">
+      <div class="carousel-track">
+        <img src="port.png" alt="Portfolio 1">
+        <img src="port.png" alt="Portfolio 2">
+        <img src="port.png" alt="Portfolio 3">
+        <img src="port.png" alt="Portfolio 4">
+        <img src="port.png" alt="Portfolio 5">
+        <img src="port.png" alt="Portfolio 6">
+        <img src="port.png" alt="Portfolio 1">
+        <img src="port.png" alt="Portfolio 2">
+        <img src="port.png" alt="Portfolio 3">
+        <img src="port.png" alt="Portfolio 3">
+      </div>
+    </div> -->
+
+    <div class="carousel-wrapper">
+      <div class="carousel">
+        <a href="portfolio1.html"><img src="Logo1pg.jpg" alt="Portfolio 1"></a>
+        <a href="portfolio2.html"><img src="logo2.jpg" alt="Portfolio 2"></a>
+        <a href="portfolio3.html"><img src="Logo3.jpg" alt="Portfolio 3"></a>
+        <a href="portfolio4.html"><img src="port.png" alt="Portfolio 4"></a>
+        <a href="portfolio5.html"><img src="port.png" alt="Portfolio 5"></a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio section end -->
+
+  <!-- Services  section start -->
+  <section class="services-section">
+    <div class="services-bg-blur"></div>
+    <h2 class="services-heading">OUR SERVICES</h2>
+    <div class="services-image"></div>
+
+    <!-- NEW WRAPPER FOR FLEX LAYOUT -->
+    <div class="services-carousel">
+      <div class="services-wrapper">
+        <div class="service-card">
+          <h3>GRAPHIC DESIGN</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="learn-more">LEARN MORE</a>
+        </div>
+
+        <div class="service-card">
+          <h3>WEB DEVELOPMENT</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="learn-more">LEARN MORE</a>
+        </div>
+
+        <div class="service-card">
+          <h3>ANIMATIONS</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="learn-more">LEARN MORE</a>
+        </div>
+
+        <div class="service-card">
+          <h3>BRANDING</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="learn-more">LEARN MORE</a>
+        </div>
+
+        <div class="service-card">
+          <h3>UI/UX DESIGN</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="learn-more">LEARN MORE</a>
+        </div>
+
+        <div class="service-card">
+          <h3>VIDEO EDITING</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" class="learn-more">LEARN MORE</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Services  section end -->
+
+  <!-- Testimonial  section start -->
+
+  <section class="testimonial-section">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="title">WHAT OUR</div>
+      <div class="subtitle">CLIENT'S SAY?</div>
+      <div class="cards">
+        <div class="card">
+          <img src="testimonial1.png" alt="client" />
+          <div class="name">JACK ANDREW</div>
+          <div class="role">Marketing Manager, EcoFlow</div>
+          <div class="message">Our website went from outdated to outstanding! The design is modern, responsive, and
+            exactly what we needed to stand out.</div>
+        </div>
+        <div class="card">
+          <img src="testimonial2.png" alt="client" />
+          <div class="name">MARK</div>
+          <div class="role">Brand Manager, Glimmer Cosmetics</div>
+          <div class="message">The graphics designed for our brand launch were bold, unique, and professional. Our
+            audience loved the look!</div>
+        </div>
+        <div class="card">
+          <img src="testimonial3.png" alt="client" />
+          <div class="name">MAX DAN</div>
+          <div class="role">CEO, BuildBright Co.</div>
+          <div class="message">They created a visual identity that truly reflects who we are. Every piece—from logos to
+            social media graphics—was top-notch.</div>
+        </div>
+        <div class="card">
+          <img src="testimonial4.png" alt="client" />
+          <div class="name">PETER JOHN </div>
+          <div class="role">Event Coordinator, The Artisan Network</div>
+          <div class="message">We constantly receive compliments on our brochures and print designs. Their eye for
+            detail is unmatched.</div>
+        </div>
+        <div class="card">
+          <img src="testimonial5.png" alt="client" />
+          <div class="name"> SARAH</div>
+          <div class="role">Founder, UrbanPulse Fitness</div>
+          <div class="message">They created a visual identity that truly reflects who we are. Every piece—from logos to
+            social media graphics—was top-notch.</div>
+        </div>
+        <div class="card">
+          <img src="testimonial6.png" alt="client" />
+          <div class="name">TINA</div>
+          <div class="role">Event Coordinator, The Artisan Network</div>
+          <div class="message">We constantly receive compliments on our brochures and print designs. Their eye for
+            detail is unmatched.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer  section Start  -->
+  <footer class="footer-section">
+    <div class="footer-bg"></div>
+    <div class="footer-overlay"></div>
+    <div class="footer-content container">
+      <div class="footer-left">
+        <h2 class="footer-logo">WEST COAST ANIMATIONS</h2>
+        <p class="footer-tagline">LET’S BRING YOUR IDEA’S INTO REALITY</p>
+        <p class="footer-description">
+          West Coast Animations transforms ideas into captivating 2D/3D animations, designs, and websites that elevate
+          brands and engage audiences.
+        </p>
+        <div class="social-icons">
+          <img src="WHITE.png" alt="Facebook">
+          <img src="linkedinWHITE.png" alt="LinkedIn">
+          <img src="INSTAWHITE.png" alt="Instagram">
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-column">
+          <h3>SERVICES</h3>
+          <ul>
+            <li>2D/3D Animations</li>
+            <li>Graphic Design</li>
+            <li>Branding</li>
+            <li>Web Development</li>
+            <li>Digital Marketing</li>
+            <li>UI/UX</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>GET IN TOUCH</h3>
+          <ul>
+            <li>Contact</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+            <li>Refund Policy</li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+    <hr class="footer-line" />
+    <div class="footer-bottom">
+
+      <p>2025 © Copyright WestCoast Animations.</p>
+    </div>
+
+  </footer>
+
+
+  <!-- Footer  section End  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
