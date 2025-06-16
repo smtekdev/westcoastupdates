@@ -1,16 +1,24 @@
 
+
 const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('navMenu');
+const body = document.body;
 
 hamburger.addEventListener('click', () => {
-    navMenu.classList.toggle('open');
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
+    body.classList.toggle('menu-open');
 });
 
-function toggleSubmenu(e) {
-    const li = e.target.parentElement;
-    li.classList.toggle('open');
-    e.stopPropagation();
+// Toggle submenu on mobile
+function toggleSubmenu(event) {
+    event.preventDefault();
+    const toggle = event.currentTarget;
+    const submenu = toggle.nextElementSibling;
+    submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
 }
+
+
 
 
 // portfolio carousel start script

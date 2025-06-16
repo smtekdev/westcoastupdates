@@ -1,60 +1,76 @@
+@media (max-width: 375px) {}
+
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
 
 
     /* header section css start */
 
+
+
+
     nav {
+        display: none;
         position: absolute;
-        top: 60px;
-        right: -100%;
-        background: #fff;
-        width: 250px;
-        flex-direction: column;
-        padding: 20px;
-        box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
-        transition: right 0.3s ease-in-out;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #5925b3a8;
+        z-index: 998;
     }
 
-    nav.open {
-        right: 0;
+    nav.active {
+        display: block;
+        animation: slideDown 0.3s ease-in-out forwards;
+        /* background-color: #5825b37a; */
     }
 
     nav ul {
         flex-direction: column;
-        gap: 10px;
+        gap: 0;
+        padding: 10px 0;
     }
 
-    nav ul li:hover ul {
-        display: none;
-    }
-
-    nav ul li .submenu-toggle {
-        display: block;
-        cursor: pointer;
-        font-size: 14px;
-        margin-top: 5px;
-        color: #007BFF;
+    nav ul li {
+        padding: 10px 20px;
     }
 
     nav ul li ul {
-        display: none;
         position: static;
-        background: transparent;
-        padding-left: 10px;
+        box-shadow: none;
     }
 
-    nav ul li.open ul {
-        display: block;
+    nav ul li .submenu-toggle {
+        cursor: pointer;
+        margin-left: 8px;
     }
 
     .hamburger {
         display: flex;
-        z-index: 99;
     }
 
     .cta-button {
         display: none;
+    }
+
+    body.menu-open {
+        overflow: hidden;
+    }
+
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 
 
@@ -68,13 +84,13 @@
     /* Hero section css start */
 
     .hero {
-        height: 100vh;
+        height: 78vh;
     }
 
     .bg-image,
     .dark-overlay,
     .man-image {
-        height: 100vh;
+        height: 78vh;
         width: 100%;
         background-size: cover;
         background-position: center;
@@ -184,7 +200,41 @@
 
     /* Hero section css end */
 
+    /* About section css start */
+    .about-section {
+        padding: 71px 30px;
+
+    }
+
+    .about-content {
+        display: block;
+        padding: 30px;
+    }
+
+    .about-image-wrapper {
+        margin-top: 30px;
+    }
+
+    .circle-shape {
+        display: none;
+    }
+
+    .about-text h4 {
+        text-align: center;
+    }
+
+    .about-text h1 {
+        font-size: 28px;
+    }
+
+    /* About section css end */
+
+
     /* Portfolio section css start */
+    .portfolio-section {
+        position: ;
+    }
+
     .carousel a img {
         width: 90vw;
         height: auto;
@@ -202,4 +252,89 @@
     }
 
     /* Portfolio section css end */
+
+
+    /* services section css start*/
+
+    .services-section {
+        overflow-x: hidden;
+    }
+
+    .services-heading {
+        font-size: 40px;
+    }
+
+    .services-image {
+        height: 55vh;
+
+    }
+
+    .services-section {
+        height: 80vh;
+
+    }
+
+
+    /* services section css end*/
+
+
+    /* testimonial section css start*/
+
+    .title {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        font-size: 40px;
+
+    }
+
+    .testimonial-section {
+        margin-top: -68px;
+    }
+
+    .testimonial-section {
+        padding-top: 60px;
+        padding-bottom: 1670px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer-section {
+        height: auto;
+        padding: 0px;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-icons {
+        display: flex;
+    }
+
+    .footer-right {
+        padding-left: 25px;
+        padding-right: 25px;
+        max-width: 100%;
+    }
+
+    .footer-left {
+        max-width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .footer-logo {
+        font-size: 35px;
+    }
+
+    .footer-description {
+        text-align: left;
+    }
+
+    /* testimonial section css end*/
 }
